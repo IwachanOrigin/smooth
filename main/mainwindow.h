@@ -15,7 +15,6 @@ private:
     Ui::MainWindowClass ui;
     QGraphicsScene scene;
 
-    QImage edgeEnhancement(QImage inputImg, float ratio);
     QImage smooth(QImage inputImg, int tap);
 
 protected:
